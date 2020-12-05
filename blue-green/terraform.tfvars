@@ -1,0 +1,13 @@
+name = "test-service"
+blue_max_size = 2
+blue_min_size = 1
+blue_desired_capacity = 1
+blue_instance_type = "t2.micro"
+blue_ami = "ami-04d29b6f966df1537"
+blue_user_data = "# Hello Blue"
+green_max_size = 0
+green_min_size = 0
+green_desired_capacity = 0
+green_instance_type = "t2.micro"
+green_ami = "ami-0885b1f6bd170450c"
+green_user_data = "# Hello Green"
